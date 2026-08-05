@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * EXERCISE 04 — Import a huge list without blowing up the DB or heap.
+ * EXERCISE 02 — Import a huge list without blowing up the DB or heap.
  *
  * importAllNaive() does one insert + one flush per row and keeps every entity in
  * the persistence context. On a large file it crawls and eventually OOMs. It is
